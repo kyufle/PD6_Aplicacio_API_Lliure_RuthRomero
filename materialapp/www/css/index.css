@@ -87,7 +87,7 @@ h1 {
 }
 
 body{
-    background-image: linear-gradient(90deg,rgba(181, 167, 201, 1) 0%, rgba(171, 145, 201, 1) 50%, rgba(161, 123, 199, 1) 100%);
+    background: rgba(0, 0, 68, 0.404);
     color: white;
     font-weight: bold;
 }
@@ -166,7 +166,7 @@ div.nav-wrapper a{
 
 .news-card {
     background-color: rgba(171, 145, 201, 1) !important;
-    height: 450px;
+    height: 268px !important;
     display: flex;
     flex-direction: column;
     transition: transform 0.3s ease;
@@ -205,7 +205,7 @@ div.nav-wrapper a{
     font-size: 24px;
     display: block;
     margin-bottom: 10px;
-    color: white !important;
+    color: #1919ff !important;
 }
 
 .card-action-links {
@@ -243,3 +243,13 @@ div.nav-wrapper a{
     border-radius: 4px;
 }
 
+.missatge-daltres-apartats{
+    background: #f8fbff;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    text-transform: full-size-kana;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
+    font-size: 15px;
+    color: #555555;
+}

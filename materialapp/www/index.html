@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:; connect-src 'self' https://api.open-meteo.com;">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; media-src *; img-src 'self' data: content:; connect-src 'self' https://api.open-meteo.com;">
     <meta name="format-detection" content="telephone=no">
     <meta name="msapplication-tap-highlight" content="no">
     <meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover">
@@ -42,15 +42,30 @@
     </ul>
 
     <ul class="tabs tabs-fixed-width tab-demo tabs-horizontal z-depth-1">
-        <li class="tab"><a href="#image-test1"><i class="material-icons">flight</i>Flight</a></li>
-        <li class="tab"><a href="#image-test2"><i class="material-icons">luggage</i>Luggage</a></li>
-        <li class="tab"><a href="#image-test3"><i class="material-icons">explore</i>Explore</a></li>
-        <li class="tab"><a class="active" href="#image-test4"><i class="material-icons">rocket_launch</i>Notícies</a></li>
+        <li class="tab"><a href="#image-test1"><i class="material-icons">nature_people</i>Índex UV</a></li>
+        <li class="tab"><a href="#image-test2"><i class="material-icons">map</i>Mapa de vent dinàmic</a></li>
+        <li class="tab"><a href="#image-test3"><i class="material-icons">star</i>Pluges d'estrelles</a></li>
+        <li class="tab"><a class="active" href="#image-test4"><i class="material-icons">wb_cloudy</i>Temps</a></li>
     </ul>              
     
-    <div id="image-test1" class="col s12"><p>Flight</p></div>
-    <div id="image-test2" class="col s12"><p>Luggage</p></div>
-    <div id="image-test3" class="col s12"><p>Explore</p></div>
+    <div id="image-test1" class="col s12">
+        <div class="container">
+            <h4 class="center-align">Índex UV</h4>
+            <div class="missatge-daltres-apartats">Encara no està disponible la medició de l'Índex UV per asegurar quan s'ha de posar protector solar. Estirà disponible la setmana vinent!</div>
+        </div>
+    </div>
+    <div id="image-test2" class="col s12">
+        <div class="container">
+            <h4 class="center-align">Mapa de vent dinàmic</h4>
+            <div class="missatge-daltres-apartats">Encara no està en funcionament aquest mapa de vent dinàmic. Estirà dintre de poc!</div>
+        </div>
+    </div>
+    <div id="image-test3" class="col s12">
+        <div class="container">
+            <h4 class="center-align">Quant sirà la pròxima pluja d'estrelles?</h4>
+            <div class="missatge-daltres-apartats">Encara no tenim registre de quan sirà. Pero esperem que sigui aviat!</div>
+        </div>
+    </div>
     
     <div id="image-test4" class="col s12">
         <div class="container">
